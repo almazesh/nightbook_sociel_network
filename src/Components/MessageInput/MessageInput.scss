@@ -1,0 +1,38 @@
+.writeParent{
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    .write{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input{
+            width: 100%;
+            padding: 20.3px;
+            outline: 0;
+            background: none;
+            color: white;
+            border:0;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .messIcon{
+            width: 40px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-right: 1px solid rgba(255,255,255,0.1);
+            padding: 20px;
+            cursor: pointer;    
+            color: rgb(240, 23, 240);
+            
+        }
+        .messIcon2{
+            width: 40px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-right: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+            border-left: 1px solid rgba(255,255,255,0.1);
+            padding: 20px;
+            color: rgb(240, 23, 240);
+            
+        }
+    }
+}

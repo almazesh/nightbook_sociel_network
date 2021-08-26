@@ -1,0 +1,42 @@
+.addCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            padding: 15px 5px;
+            outline: 0;
+            border-radius: 6px;
+            border:0;
+            width: 500px;
+        }
+        input[type=file]::file-selector-button{
+            width: 100%;
+            padding: 15px 0;
+            background: rgb(34, 17, 34);
+            box-shadow: 0 0 5px rgb(240, 23, 240);
+            color: white;
+            border:0;
+            margin-bottom: 20px;
+            outline: 0;
+            border-radius: 6px;
+        } 
+
+        button{
+            padding: 10px 0;
+            border-radius: 6px;
+            border:0;
+            width: 100px;
+        }
+
+       
+          
+        
+    }
+}

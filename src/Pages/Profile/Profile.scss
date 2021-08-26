@@ -1,0 +1,15 @@
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .profileContent{
+        width: 60%;
+        margin:0 auto;
+        .profileCard{
+            .profileUserIcon{
+                color: white;
+                font-size: 100px;
+            }
+        }
+    }
+}

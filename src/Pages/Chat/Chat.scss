@@ -1,0 +1,71 @@
+.chat{
+    width: 100%;
+
+    .chatContent{
+        display: flex;
+        .chatUser{
+            width: 270px;
+            height: 100vh;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 1px;
+                background: rgba(255,255,255,0.1);
+                height: 100%;
+                right: 0;
+            }
+
+            .chatSearch{
+                width: 250px;
+                position: relative;
+                input{
+                    background: none;
+                    border:0;
+                    outline: 0;
+                    width: 100%;
+                    border-bottom: 1px solid rgba(255,255,255,0.1);
+                    color: white;
+                    padding: 20px 10px;
+                }
+                .chatSearchIcon{
+                    position: absolute;
+                    right: 0%;
+                    cursor: pointer;
+                    top: 33%;
+                    color: rgb(240, 23, 240);
+                    font-weight: bold;
+                }
+
+            }
+            .newChat{
+                position: absolute;
+                top: -60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60px;
+                right:0;
+                background: none;
+                font-size: 20px;
+                color: rgb(240, 23, 240);
+                border:0;
+                cursor: pointer;
+                border-right: 1px solid rgba(255,255,255,0.1);
+                border-left: 1px solid rgba(255,255,255,0.1);
+                width: 60px;
+            }
+
+
+            .chatListOfUsers{
+               height: 100%;
+               overflow: scroll;
+              
+            }
+            ::-webkit-scrollbar{
+                display: none;
+            }
+
+        }
+    }
+}

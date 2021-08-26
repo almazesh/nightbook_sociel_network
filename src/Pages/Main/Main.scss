@@ -1,0 +1,12 @@
+.rootMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .mainContent{
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        overflow-y: scroll;
+        padding: 0 3%;
+    }
+}

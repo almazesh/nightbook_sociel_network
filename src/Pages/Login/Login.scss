@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+.rootLogin{
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    font-family: 'Merienda', cursive;
+    height: 100vh;
+    .row{
+        width: 70%;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        padding-top: 40px;
+        justify-content: space-between;
+        div{
+            h1{
+                color: rgb(240, 23, 240);
+                font-size: 70px;
+                text-shadow: 0 0 10px purple;
+            }
+        }
+    }
+
+
+    .formLogin{
+        .formCard{
+            width: 400px;
+            height: 500px;
+            background: rgb(240, 23, 240);
+            border-radius: 10px;
+            box-shadow: 20px 10px 20px purple;
+            position: relative;
+            .absoluteCard{
+                position: absolute;
+                width: 400px;
+                border-radius: 10px;
+                height: 400px;
+                background: white;
+                box-shadow: 0 0 10px white;
+                left: -20%;
+                top: 10%;
+                text-align: center;
+                div{
+                    position: relative;
+                    p{
+                        position: absolute;
+                        font-size: 13px;
+                        color: red;
+                        font-family: 'Times New Roman', Times, serif !important;
+                        left: 8%;
+                        top:50px;
+                        transition: 0.5s;
+                    }
+                    input{
+                        width: 80%;
+                        padding: 10px 10px;
+                        border:0;
+                        border-bottom: 1px solid black;
+                        margin: 20px 0;
+                        outline: 0;
+                    }
+                    .emailIcon{
+                        position: absolute;
+                        right:30px;
+                        top: 30px;
+                    }
+                    .passwordIcon{
+                        position: absolute;
+                        right:30px;
+                        bottom: 30px;
+                    }
+                }
+                button{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 100%;
+                    border:0;
+                    font-weight: 600;
+                    transition: 0.5s;
+                    &:hover{
+                        transform: rotate(360deg);
+                        border:2px solid purple;
+                        background: rgb(240, 23, 240);
+                        color: white;
+                        box-shadow: inset 0 0 20px black;
+                        font-weight: bold;
+                        transition-delay: 0.2s;
+                        cursor: pointer;
+                    }
+                }
+                .googleIcon{
+                    position: absolute;
+                    bottom: 5%;
+                    right: 5%;
+                    padding: 10px;
+                    font-size: 25px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    background: rgba(0,0,0,0.9);
+                }
+                span{
+                    position: absolute;
+                    left: 0;
+                    font-size: 13px;
+                    bottom: 7%;
+                    left: 5%;
+                    i{
+                        color: purple;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

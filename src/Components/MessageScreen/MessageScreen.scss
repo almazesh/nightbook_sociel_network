@@ -1,0 +1,42 @@
+.messageHead{
+    position: relative;
+    .headInline{
+        display: flex;
+        img{
+            position: absolute;
+            top: -50px;
+            left: 20px;
+            width: 40px;
+            box-shadow: 0 0 5px rgb(240, 23, 240);
+            height: 40px;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+        div{
+            h3{
+                position: absolute;
+                top: -60px;
+                color: white;
+                font-size: 15px;
+                left: 75px;
+            }
+            p{
+                position: absolute;
+                top: -35px;
+                width: 100px;
+                color: white;
+                font-size: 13px;
+                left: 75px;
+            }
+        }
+        
+    }
+}
+.messageEnd{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
